@@ -4,12 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Compasso Musical - Loja de Instrumentos Musicais</title>
+    <!-- CSS Interno -->
+     <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .titulo {
+        color: red;
+      }
+      .titulo {
+        color: red;
+        background-color: aqua;
+        margin: 50px 20px;
+        padding: 20px 50px 100px 150px;
+      }
+     </style>
   </head>
   <body>
-    <!-- Cabeçalho -->
-    <header>
+    <!-- Cabeçalho do site-->
+    <header id="header">
       <div id="logo">
-        <h1>Compasso Musical</h1>
+        <h1 class="titulo" style="color: blue;">Compasso Musical</h1>
       </div>
       <nav>
         <ul>
@@ -20,13 +37,13 @@
             <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="#Instrumentos">instrumentos</a>
+            <a href="#instrumentos">Instrumentos</a>
           </li>
           <li>
-            <a href="#depoimento">Depoimento</a>
+            <a href="#Depoimento">Depoimento</a>
           </li>
           <li>
-            <a href="">contato</a>
+            <a href="#contatos">Contato</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +55,7 @@
         <h2>O som da sua vida começa aqui</h2>
         <p>Encontre as melhores marcas de violinos , trompetes ou violões</p>
         <img
-          src="https://images.unsplash.com/photo-1604514288114-3851479df2f2?"
+          src="Banda de rock.jpg"
           alt="Banda de Rock num show usando os Instrumentos musicais da Compasso Musical"
           width="600"
         />
@@ -60,7 +77,7 @@
        </section>
 
        <!-- Seção Instrumentos -->
-        <section id="instrumentos">
+        <section id="Instrumentos">
           <h2>Catalogo</h2>
           <article>
             <h3>Guitarra Eletrica StratoCaster</h3>
@@ -70,7 +87,7 @@
               width="500"
             >
             <p>
-              <strong>Marca: </strong>Fender
+              <strong>Marca: </strong>pearl
             </p>
             <p>
               Guitarra classica de alta perfomace, ideal para rock e blues.
@@ -81,14 +98,14 @@
             <a href="#">adicionar ao carrinho</a>
           </article>
           <article>
-            <h3>Kit Bateria</h3>
+            <h3>Kit Bateria Completo</h3>
             <img 
               src="https://images.unsplash.com/photo-1526857833023-721f5005ab32?" 
               alt="Imagem do Kit de bateria"
               width="500"
             >
             <p>
-              <strong>Marca: </strong>Pearl
+              <strong>Marca: </strong>fender
             </p>
             <p>
               kit de bateria preto e roxo ideal para voce
@@ -175,13 +192,13 @@
             <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="Instrumentos">Instrumentos</a>
+            <a href="#Instrumentos">Instrumentos</a>
           </li>
           <li>
             <a href="#depoimento">Depoimento</a>
           </li>
           <li>
-            <a href="">contato</a>
+            <a href="#contatos">contato</a>
           </li>
         </ul>
       </nav>
